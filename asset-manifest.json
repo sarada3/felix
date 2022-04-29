@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/felix/static/css/main.464f3601.css",
+    "main.js": "/felix/static/js/main.0de565fa.js",
+    "static/js/2.bf4c3ba0.chunk.js": "/felix/static/js/2.bf4c3ba0.chunk.js",
+    "static/js/951.c31cf0f6.chunk.js": "/felix/static/js/951.c31cf0f6.chunk.js",
+    "static/js/361.e4bca6cb.chunk.js": "/felix/static/js/361.e4bca6cb.chunk.js",
+    "static/js/954.3d021bd9.chunk.js": "/felix/static/js/954.3d021bd9.chunk.js",
+    "static/media/transport.mp4": "/felix/static/media/transport.9f1a0e55c2c4a38dd3b0.mp4",
+    "static/media/night.mp4": "/felix/static/media/night.7c78004c898a2803d792.mp4",
+    "static/media/castle.mp4": "/felix/static/media/castle.685ad4220f3eac964c98.mp4",
+    "static/media/company3.jpg": "/felix/static/media/company3.a439adcd02a4617c87df.jpg",
+    "static/media/company-vertical3.jpg": "/felix/static/media/company-vertical3.8e1819707b994361e491.jpg",
+    "static/media/forest.jpg": "/felix/static/media/forest.9afdd65a506f1fd735f9.jpg",
+    "static/media/avatar.jpg": "/felix/static/media/avatar.49ade2c35744932e5590.jpg",
+    "static/media/company2.jpg": "/felix/static/media/company2.37d592225e4d9355f2b2.jpg",
+    "static/media/company1.jpg": "/felix/static/media/company1.3b3620bc6155f3f32830.jpg",
+    "static/media/company4.jpg": "/felix/static/media/company4.9d9c3e500c62fc04e4b6.jpg",
+    "static/media/company-vertical4.jpg": "/felix/static/media/company-vertical4.b79e48b99654067da36d.jpg",
+    "static/media/company-vertical1.jpg": "/felix/static/media/company-vertical1.ee6f4391e5310a70b795.jpg",
+    "static/media/bike-man.png": "/felix/static/media/bike-man.26d8adce5121166db3f0.png",
+    "static/media/company-vertical2.jpg": "/felix/static/media/company-vertical2.9458e8990b7f3afef7b3.jpg",
+    "index.html": "/felix/index.html",
+    "main.464f3601.css.map": "/felix/static/css/main.464f3601.css.map",
+    "main.0de565fa.js.map": "/felix/static/js/main.0de565fa.js.map",
+    "2.bf4c3ba0.chunk.js.map": "/felix/static/js/2.bf4c3ba0.chunk.js.map",
+    "951.c31cf0f6.chunk.js.map": "/felix/static/js/951.c31cf0f6.chunk.js.map",
+    "361.e4bca6cb.chunk.js.map": "/felix/static/js/361.e4bca6cb.chunk.js.map",
+    "954.3d021bd9.chunk.js.map": "/felix/static/js/954.3d021bd9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.464f3601.css",
+    "static/js/main.0de565fa.js"
+  ]
+}
