@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import styled from "styled-components";
 
-function App() {
+import Intro from "./components/Intro";
+import GoTopBtn from "./components/GoTopBtn";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+
+import useScrollDirectionDetect from "./utils/hooks/useScrollDirectionDetect";
+import { changeOpacity } from "./styles/animations";
+
+const App = () => {
+  const [loading, setLoading] = useState("init"); // "init", "intro", "done"
+  const { footerShowing, scrollDirection } = useScrollDirectionDetect();
+  useEffect(() => {
+    setLoading("intro");
+  }, []);
+  const handleIntroEnd = () => {
+    setLoading("done");
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {loading === "intro" && <Intro handleIntroEnd={handleIntroEnd} />}
+      {loading === "done" && (
+        <Container>
+          <GoTopBtn />
+          <Header scrollDirection={scrollDirection} />
+          <Main />
+          <Footer footerShowing={footerShowing} />
+        </Container>
+      )}
+    </>
   );
-}
+};
+
+const Container = styled.div`
+  /* height: 3000px; */
+  position: relative;
+  ${changeOpacity({
+    duration: 1.5,
+    startAndEnd: [0, 1],
+  })}
+`;
 
 export default App;
