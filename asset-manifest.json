@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/felix/static/css/main.464f3601.css",
-    "main.js": "/felix/static/js/main.0de565fa.js",
+    "main.js": "/felix/static/js/main.6aeda1a9.js",
     "static/js/2.bf4c3ba0.chunk.js": "/felix/static/js/2.bf4c3ba0.chunk.js",
     "static/js/951.c31cf0f6.chunk.js": "/felix/static/js/951.c31cf0f6.chunk.js",
     "static/js/361.e4bca6cb.chunk.js": "/felix/static/js/361.e4bca6cb.chunk.js",
@@ -22,7 +22,7 @@
     "static/media/company-vertical2.jpg": "/felix/static/media/company-vertical2.9458e8990b7f3afef7b3.jpg",
     "index.html": "/felix/index.html",
     "main.464f3601.css.map": "/felix/static/css/main.464f3601.css.map",
-    "main.0de565fa.js.map": "/felix/static/js/main.0de565fa.js.map",
+    "main.6aeda1a9.js.map": "/felix/static/js/main.6aeda1a9.js.map",
     "2.bf4c3ba0.chunk.js.map": "/felix/static/js/2.bf4c3ba0.chunk.js.map",
     "951.c31cf0f6.chunk.js.map": "/felix/static/js/951.c31cf0f6.chunk.js.map",
     "361.e4bca6cb.chunk.js.map": "/felix/static/js/361.e4bca6cb.chunk.js.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.464f3601.css",
-    "static/js/main.0de565fa.js"
+    "static/js/main.6aeda1a9.js"
   ]
 }
